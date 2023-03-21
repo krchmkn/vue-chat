@@ -1,0 +1,60 @@
+@import './base.css';
+
+h1 {
+  font-size: calc(var(--measure) * 2);
+  margin-bottom: var(--measure-half);
+}
+
+.button {
+  display: inline-block;
+  padding: var(--measure);
+  color: var(--light);
+  background: var(--dark);
+  border-radius: var(--measure-half);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid var(--pale);
+  text-transform: uppercase;
+}
+
+.button--small {
+  padding: var(--measure-half) var(--measure);
+}
+
+.button:active {
+  transform: scale3d(0.95, 0.95, 0.95);
+}
+
+.input {
+  display: block;
+  padding: var(--measure);
+  border: 1px solid var(--dark);
+  border-radius: var(--measure-half);
+  color: var(--dark);
+  min-width: 300px;
+  background: var(--light);
+}
+
+.button,
+.input {
+  outline-color: var(--light);
+  font-size: 1rem;
+  width: 100%;
+  font-family: monospace;
+}
+
+.input:disabled,
+.button:disabled {
+  opacity: 0.5;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}

@@ -1,0 +1,30 @@
+:root {
+  --dark: #2c3e50;
+  --coal: #34495e;
+  --light: #fff;
+  --pale: #bdc3c7;
+  --measure: 1rem;
+  --measure-half: calc(var(--measure) / 2);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-weight: normal;
+  word-break: break-all;
+}
+
+body {
+  color: var(--light);
+  background: var(--coal);
+  line-height: 1.6;
+  font-family: monospace;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

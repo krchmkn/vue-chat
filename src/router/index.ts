@@ -17,7 +17,7 @@ const router = createRouter({
       meta: { requiresAuth: true }
     },
     {
-      path: '/:id',
+      path: '/rooms/:id',
       name: 'room',
       component: () => import('@/views/RoomView.vue'),
       meta: { requiresAuth: true }

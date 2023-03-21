@@ -69,9 +69,9 @@ async function onSubmit() {
 
 <style scoped>
 .login-form {
-  display: grid;
-  height: 100%;
-  place-content: center;
+  margin: 0 auto;
+  width: 300px;
+  place-self: center;
 }
 
 .login-form__item {

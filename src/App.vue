@@ -37,7 +37,9 @@ const loginStore = useLoginStore()
   grid-template-areas:
     'header'
     'content';
-  min-height: 100vh;
+  height: 100vh;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .layout__header {
@@ -49,9 +51,11 @@ const loginStore = useLoginStore()
   place-content: space-between;
   grid-auto-flow: column;
   padding: var(--measure-half) var(--measure);
+  border-radius: 0 0 1rem 1rem;
 }
 
 .layout__content {
+  display: grid;
   grid-area: content;
   padding: var(--measure);
   width: 100%;

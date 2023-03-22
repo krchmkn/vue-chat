@@ -3,6 +3,12 @@
 ## Specifications
 [Original text](specifications.pdf)
 
+## Install
+
+```sh
+npm i
+```
+
 ## Run
 
 You have to start the server first

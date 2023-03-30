@@ -25,3 +25,9 @@ npm run dev
 npm run build
 npm run preview
 ```
+
+
+## Run with Docker
+
+- Run client `bash run.sh`, see [run.sh](run.sh)
+- And then run server [vue-chat-server](https://github.com/krchmkn/vue-chat-server/tree/main)
